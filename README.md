@@ -17,3 +17,6 @@ clorname_2.csvおよびcolormap_setting_file_converter_2.pyではclorname_2.csv�
 clorname_3.csvおよびcolormap_setting_file_converter_3.pyではclorname_3.csvにカラーマップの名前と0~1における色の配置のリストの組み合わせを2列n行で記載します。
 
 詳しくは実際のファイルを見てみてください。
+
+
+カラーマップ以外の設定はtemplate.cmsettingファイルから読み込んでいます。変更したい場合は直接書き換えるかお好みのcmsettingファイルと差し替えてください。
