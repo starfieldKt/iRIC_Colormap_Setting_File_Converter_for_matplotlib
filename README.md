@@ -1,1 +1,19 @@
 # iRIC_Colormap_Setting_File_Converter_for_matplotlib
+
+matplotlibのカラーマップをmatplotlib.get_cmapで取得し、0~1の任意の位置の色情報を拾ってiRIC用のカラーマップ設定ファイルを作成できます。
+
+
+# 使い方
+
+1. clorname.csvにカラーマップの名前を入力します。(カラーマップ名はこちらを参照： https://matplotlib.org/stable/tutorials/colors/colormaps.html#lightness-of-matplotlib-colormaps)
+2. colormap_setting_file_converter.pyを実行してください。
+3. 分割数(グラデーション作成に使用される色の数)を入力してください。
+4. iRIC用のカラーマップ設定ファイルが作成されます。
+
+clorname.csvおよびcolormap_setting_file_converter.pyではclorname.csvにカラーマップの名前のみ記載し、分割数は一括で設定します。色は等間隔で配置されます。
+
+clorname_2.csvおよびcolormap_setting_file_converter_2.pyではclorname_2.csvにカラーマップの名前と分割数の組み合わせを2列n行で記載します。色は等間隔で配置されます。
+
+clorname_3.csvおよびcolormap_setting_file_converter_3.pyではclorname_3.csvにカラーマップの名前と0~1における色の配置のリストの組み合わせを2列n行で記載します。
+
+詳しくは実際のファイルを見てみてください。
