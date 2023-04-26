@@ -39,6 +39,7 @@ for i in range(len(colorname_list)):
     # 新たなItem要素を作成
     for i in range(len(colors)):
         value = "{:.6f}".format(i / (len(colors) - 1))
+        # value = "{:.6f}".format((i + 1) / (len(colors)))  # Qualitativeのときはこちら
         rgb = colors[i][:]
         color = "#{:02x}{:02x}{:02x}".format(*rgb)
         item = ET.Element("Item")
